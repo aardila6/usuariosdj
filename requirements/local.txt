@@ -1,0 +1,19 @@
+pip install unipath <== biblioteca de utilidades de manipulación de rutas de archivos y directorios que proporciona una interfaz más sencilla y uniforme para trabajar con rutas en sistemas operativos diferentes
+
+pip install pillow <== Imágenes (redimensionar y otras mas)
+
+pip freeze --local <== Muestra que paquetes tengo instalados en mi django 
+
+asgiref==3.7.2
+Django==4.2.3
+Pillow==10.0.0
+sqlparse==0.4.4
+tzdata==2023.3
+Unipath==1.1
+
+El comando pip install -r requirements/local.txt instalaría todos los paquetes del archivo actual(ojo, solo los nombres de los paquetes con su versión, lo otro es descriptivo)
+pip install -r requirements/local.txt
+
+
+En producción sería el prod.txt
+
